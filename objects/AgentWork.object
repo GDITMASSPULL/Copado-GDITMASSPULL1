@@ -132,5 +132,12 @@
         <fullName>WorkItemId</fullName>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>agent_manager__c</fullName>
+        <externalId>false</externalId>
+        <label>agent manager</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
     <sharingModel>Read</sharingModel>
 </CustomObject>
